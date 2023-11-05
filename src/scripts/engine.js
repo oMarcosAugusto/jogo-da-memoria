@@ -58,7 +58,7 @@ function checkMatch() {
 
 var meuAudio = document.getElementById("meuAudio");
 
-meuAudio.volume = 0.09;
+meuAudio.volume = 0.05;
 
 // function playSound(audioName) {
 //   let audio = new Audio(`../src/audios/${audioName}.mp3`);

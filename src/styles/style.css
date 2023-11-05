@@ -41,19 +41,11 @@ body {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  /* background: linear-gradient(
-    325deg,
-    #fbd566 10%,
-    #6dc95a 40%,
-    #07633a 70%,
-    #e7282f 100%
-  ); */
-
-  padding: 40px 60px;
 }
 
 h2 {
   font-size: 6rem;
+  text-align: center;
   color: #9b0f0f;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
@@ -82,8 +74,7 @@ h2 {
 }
 
 .game {
-  width: 430px;
-  height: 430px;
+  width: 385px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -92,14 +83,12 @@ h2 {
 }
 
 .item {
-  position: relative;
-  width: 100px;
-  height: 100px;
+  width: 88px;
+  height: 88px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  gap: 10px;
   font-size: 3rem;
   transform: rotateY(180deg);
   transition: 0.25s;
@@ -125,18 +114,9 @@ h2 {
   transform: rotateY(180deg);
 }
 
-#audioEscondido {
-  display: none;
-}
-
 /* Estilos para telas menores que 768px */
 @media (max-width: 768px) {
-  .container {
-    padding: 20px 30px;
-  }
-
   h2 {
-    text-align: center;
     font-size: 4rem;
   }
   body {
@@ -144,8 +124,6 @@ h2 {
   }
 
   .item {
-    width: 100px;
-    height: 100px;
     font-size: 2rem;
   }
   .item.boxOpen {
@@ -155,13 +133,7 @@ h2 {
 
 /* Estilos para telas menores que 480px */
 @media (max-width: 480px) {
-  .container {
-    padding: auto;
-    margin: auto;
-  }
-
   h2 {
-    text-align: center;
     font-size: 4rem;
   }
 
@@ -170,8 +142,6 @@ h2 {
   }
 
   .item {
-    width: 100px;
-    height: 100px;
     font-size: 1.5rem;
   }
   .item.boxOpen {
@@ -180,23 +150,11 @@ h2 {
 }
 
 /* Estilos para telas menores que 320px */
-@media (max-width: 320px) {
-  .container {
-    padding: 10px;
-  }
-  .game {
-    width: auto;
-    height: auto;
-  }
-
+@media (max-width: 391px) {
   h2 {
-    text-align: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
-
   .item {
-    width: 60px;
-    height: 60px;
     font-size: 1.2rem;
   }
 }
