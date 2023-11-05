@@ -5,7 +5,7 @@ body {
   min-height: 100vh;
   user-select: none;
   background-image: url(../img/ar.png), url(../img/boneco.png);
-  background-position: left 107%, right 122%;
+  background-position: left 104%, right 111%;
   background-size: 25%, 30%;
   background-repeat: no-repeat;
 }
@@ -35,7 +35,7 @@ body {
 }
 
 .container {
-  position: relative;
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -156,7 +156,7 @@ h2 {
 /* Estilos para telas menores que 480px */
 @media (max-width: 480px) {
   .container {
-    padding: 15px;
+    padding: auto;
     margin: auto;
   }
 
