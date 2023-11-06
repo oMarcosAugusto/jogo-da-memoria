@@ -1,5 +1,14 @@
-var meuAudio = document.getElementById("meuAudio");
-meuAudio.volume = 0.01;
+function toggleAudio() {
+  var meuAudio = document.getElementById("meuAudio");
+  if (meuAudio.paused) {
+    meuAudio.play();
+    meuAudio.volume = 0.01;
+  } else {
+    meuAudio.pause();
+  }
+}
+
+toggleAudio();
 
 const emojis = [
   "🎁",
@@ -58,4 +67,3 @@ function checkMatch() {
     alert("Voce venceu!!");
   }
 }
-meuAudio.volume = 0.01;

@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <audio id="meuAudio" autoplay>
+    <audio id="meuAudio">
         <source src="./src/audios/we-wish.mp3" type="audio/mpeg">
     </audio>
 
@@ -29,6 +29,9 @@
 
         </div>
         <button class="reset" onclick="window.location.reload()">RESET GAME</button>
+        <button class="audio-control" onclick="toggleAudio()"><img src="./src/img/rudolph.png"
+                alt="play/pause"></button>
+
     </div>
 
     <script src="./src/scripts/engine.js" defer></script>

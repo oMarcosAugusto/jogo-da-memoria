@@ -66,7 +66,6 @@ h2 {
   text-transform: uppercase;
   cursor: pointer;
   border-radius: 10px;
-  margin-bottom: 15px;
 }
 
 .reset:focus {
@@ -115,6 +114,40 @@ h2 {
   transform: rotateY(180deg);
 }
 
+/* .audio-control {
+  padding: 15px 20px;
+  width: 10%;
+  height: 10%;
+  color: #fff;
+  background-color: #3f3f3f;
+  border: none;
+  font-size: 0.2em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.audio-control:focus {
+  background-color: #747070;
+}
+
+.audio-control:active {
+  background-color: #565656;
+} */
+
+.audio-control {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+.audio-control img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
 /* Estilos para telas menores que 768px */
 @media (max-width: 768px) {
   container {
@@ -159,10 +192,18 @@ h2 {
 
 /* Estilos para telas menores que 320px */
 @media (max-width: 391px) {
+  body {
+    margin-top: 20px;
+    background-size: 30%, 30%;
+  }
   h2 {
     font-size: 2.5rem;
   }
   .item {
     font-size: 1.2rem;
+  }
+  .audio-control img {
+    max-width: 100px;
+    max-height: 100px;
   }
 }
