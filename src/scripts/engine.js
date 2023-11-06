@@ -1,3 +1,6 @@
+var meuAudio = document.getElementById("meuAudio");
+meuAudio.volume = 0.05;
+
 const emojis = [
   "🎁",
   "🎁",
@@ -55,15 +58,3 @@ function checkMatch() {
     alert("Voce venceu!!");
   }
 }
-
-var meuAudio = document.getElementById("meuAudio");
-
-meuAudio.volume = 0.05;
-
-// function playSound(audioName) {
-//   let audio = new Audio(`../src/audios/${audioName}.mp3`);
-//   audio.volume = 0.05;
-//   audio.play();
-// }
-
-// playSound("we-wish");
