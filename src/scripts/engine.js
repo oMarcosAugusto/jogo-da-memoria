@@ -58,3 +58,4 @@ function checkMatch() {
     alert("Voce venceu!!");
   }
 }
+meuAudio.volume = 0.01;
