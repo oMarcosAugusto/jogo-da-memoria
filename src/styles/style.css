@@ -66,6 +66,7 @@ h2 {
   text-transform: uppercase;
   cursor: pointer;
   border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 .reset:focus {
@@ -170,10 +171,6 @@ h2 {
 
 /* Estilos para telas menores que 480px */
 @media (max-width: 480px) {
-  body {
-    margin-top: -30px;
-    margin-bottom: -30px;
-  }
   h2 {
     font-size: 4rem;
   }
@@ -188,13 +185,17 @@ h2 {
   .item.boxOpen {
     font-size: 2.5rem;
   }
+  .audio-control img {
+    max-width: 130px;
+    max-height: 130px;
+  }
 }
 
 /* Estilos para telas menores que 320px */
 @media (max-width: 391px) {
   body {
     margin-top: 20px;
-    background-size: 30%, 30%;
+    background-size: 35%, 30%;
   }
   h2 {
     font-size: 2.5rem;
@@ -203,7 +204,7 @@ h2 {
     font-size: 1.2rem;
   }
   .audio-control img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 110px;
+    max-height: 110px;
   }
 }
