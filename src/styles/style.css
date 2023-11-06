@@ -56,9 +56,7 @@ h2 {
   padding: 15px 20px;
   width: 30%;
   color: #fff;
-  box-shadow: 0px 0px 41px -16px rgba(202, 4, 4, 0.39) inset;
-  -webkit-box-shadow: 0px 0px 41px -16px rgba(202, 4, 4, 0.39) inset;
-  -moz-box-shadow: 0px 0px 41px -16px rgba(202, 4, 4, 0.39) inset;
+  box-shadow: 0px 0px 100px 16px rgba(190, 183, 183, 0.811);
   background-color: #747070;
   border: none;
   font-size: 1em;
@@ -151,11 +149,11 @@ h2 {
 
 /* Estilos para telas menores que 768px */
 @media (max-width: 768px) {
-  container {
-    padding: -200px auto;
+  .container {
+    margin-top: 20px;
   }
   h2 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   body {
     background-position: left 102%, right 104%;
@@ -167,6 +165,10 @@ h2 {
   .item.boxOpen {
     font-size: 4rem;
   }
+  .reset {
+    font-size: 0.6em;
+    padding: 25px 10px;
+  }
 }
 
 /* Estilos para telas menores que 480px */
@@ -174,7 +176,6 @@ h2 {
   body {
     background-position: left 101%, right 102%;
   }
-
   .item {
     font-size: 1.5rem;
   }
@@ -193,7 +194,6 @@ h2 {
     margin-top: 20px;
     background-size: 35%, 30%;
   }
-
   .item {
     font-size: 1.2rem;
   }
