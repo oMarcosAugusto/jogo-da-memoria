@@ -1,5 +1,5 @@
 var meuAudio = document.getElementById("meuAudio");
-meuAudio.volume = 0.05;
+meuAudio.volume = 0.01;
 
 const emojis = [
   "🎁",
